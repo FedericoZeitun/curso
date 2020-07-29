@@ -1,0 +1,267 @@
+/*.caja{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    /*shorthand*/
+    /*Text-align no centra el elemento, sino el texto dentro suyo*/
+    /*El margin va en orden como el reloj, arriba, derecha, abajo, izquierda*/
+    /*Margin: auto; centra elementos con display de bloque
+    margin: 30px auto;    
+    color: #ffffff;
+    padding: 10px 20px 10px 5px
+}
+.caja2{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}3
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*li{
+    display: inline;
+    list-style: none;
+}
+.jose{  
+    background: blue;
+    color: white;
+    width: 25%;
+    min-width: 200px;
+    min-height: 100%; /*el heigt no trabaja con porcentuales
+}
+.re{
+    width: 50%;
+    background-color: rgb(160, 145, 13);
+}*/
+/*p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    color: red;
+    background-color: #14a020;
+    background-image: url("https://elcomercio.pe/resizer/JYeaMhi6cRgK0asSXakqGZiblbY=/980x528/smart/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/QLR4EJTTKZEPXAMY34YHZU3FSA.jpg");
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover
+}
+/*.marron {
+            text-decoration: dashed; 
+            background-color: #222222;
+            border-right-color: cyan;
+        }*/
+/*p{
+    /*color: red;
+    text-decoration: none;
+    font-style: italic;
+    font-weight:900;
+    line-height: 150%;
+    letter-spacing: 2px;
+    font-size: 32px;*/ /*px pt % em rem
+}*/
+
+/*.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    background-color: #ccc;
+    padding: 30px;
+    /*El padding y margin se llevan mal con el display:inline*/
+    /*padding: 5px 30px;
+    border: 3px #cccccc outset;
+    border-radius: 30px;/*En el border radius pasa lo mismo con el formato de las agujas del reloj
+    color: #fff;
+    width: 100px;
+    /*
+    MARGIN: hacia afuera
+    PADDING: hacia adentro
+    BORDER: style width color
+    El total del boton va a ser 166px porque tengo 100 de ancho,
+    30 de cada lado de padding, y 3 de cada borde.
+}
+*/
+
+/*.png, .svg{
+    display: inline-block;
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.png{
+   background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/PNG_transparency_demonstration_2.png/300px-PNG_transparency_demonstration_2.png');
+}
+svg.{
+    background-image: url('https://www.muylinux.com/wp-content/uploads/2012/06/tux-large.png');
+}*/
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body{
+    margin: 0px;
+    font-family:'Montserrat', sans-serif;;
+    color: #666;
+}
+h2{
+    font-size: 2rem;
+    color: #666;
+}
+.cursos article{
+    width: 31%;
+}
+article{
+    display: inline-block;
+    width: 33%;
+}
+article img{
+    max-width: 100%;
+}
+.cursos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*Tengo flex-star(izq), center, flex-end(der), space around, y space between
+}
+*/
+/* 
+.cursos p{
+    font-size: 1,7rem;
+    font-weight: bold;
+    margin: 5px;
+}
+.cursos h3{
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 5px
+}
+.btn{
+    background: blue;
+    color: white;
+    padding: 7px 15px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+article{
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    box-sizing: border-box;
+    margin: 15px 0;
+    width: 31%;
+    overflow: hidden;/*El overflow hidden es para circular la imagen dentro de la forma
+}
+*/
+/*.menu{
+    text-align: center;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+}
+.menu a{
+    background: green;
+    padding: 10px 30px;
+    display: block;
+    cursor: pointer;
+}
+.menu a:hover{
+    background: grey;
+}
+Los "a" que son primer hijo dentro del menu
+.menu li:first-child a{
+    border-radius: 10px 0 0 10px;
+}
+
+.menu li:last-child a{
+    border-radius: 0 10px 10px 0;
+}
+.menu li:nth-child(1) a{
+    background: red;
+}
+.menu li:nth-child(2) a{
+    background: yellow;
+}
+.menu li:nth-child(3) a{
+    background: brown;
+}
+.menu li:nth-child(4) a{
+    background: violet;
+}*/
+/*body {
+    counter-reset: jose;
+}
+h2:before {
+    content: "Articulo "counter(jose)" ";
+}
+section { 
+    counter-increment: jose;
+    counter-reset: juan;
+}
+p:before {
+    counter-increment: juan;
+    content: "Parrafo "counter(juan)": ";
+}
+*/
+/*
+h2 {
+    margin: 40px auto;
+    text-align: center;
+    font-size: 2.5rem;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+}
+section article {
+    width: 30%;
+    overflow: hidden;
+    position: relative;
+}
+section article img {
+    max-width: 100%;
+}
+section article h3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}*/
+/*
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap');
+h2 {
+    font-family: 'Spartan', sans-serif;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 2.5rem;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+}
+section article {
+    width: 30%;
+    overflow: hidden;
+    position: relative;
+}
+section article img {
+    max-width: 100%;
+}
+section article h3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /*Estas 4 posiciones se usan solo cuando hay position:absolute*/ 
+    margin: 0px;
+}
+*/
